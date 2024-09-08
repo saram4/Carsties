@@ -6,13 +6,13 @@ namespace AuctionService.DTOs
     public class CreateAuctionDto
     {
         [Required]
-        public String Make { get; set; }
+        public string Make { get; set; }
         [Required]
-        public String Model { get; set; }
+        public string Model { get; set; }
         [Required]
         public int Year { get; set; }
         [Required]
-        public String Color { get; set; }
+        public string Color { get; set; }
         [Required]
         public int Mileage { get; set; }
         [Required]
